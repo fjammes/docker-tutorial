@@ -1,0 +1,15 @@
+Notre présentation va s'appuyer sur une infrastructure immuable, afin d'assurer qu'un ensemble de machines disposent exactement des mêmes logiciels installés, des mêmes bibliothèques ou des mêmes correctifs de sécurité.
+
+L'idée centrale d'une infrastructure immuable est que les serveurs ne sont jamais modifiés ou mis à jour après leur déploiement. Chaque modification passe par la création d'une image étalon, utilisée ensuite pour déployer l'ensemble des serveurs parfaitement identiques.
+
+Cela garantit que chaque serveur déployé dispose exactement du même logiciel, puisque c'est la même image qui est déployée. De plus, en conservant les images étalons, on garantit qu'il sera toujours possible de redéployer une version précédente.
+
+La technologie des conteneurs permet de créer facilement des images étalons, puis de les distribuer rapidement sur un grand nombre de machines. Le concept d'infrastructure immuable devient accessible et facile à mettre en œuvre.
+
+Tout d'abord, nous présenterons les principes des infrastructures immuables, ses obstacles et comment les surmonter via les conteneurs. Nous détaillerons leur mise en place avec Docker.
+
+Nous couvrirons en particulier le fonctionnement du système de cache de Docker. Lorsque les modifications effectuées sont mineures, ce cache permet d'obtenir une reconstruction d'image très rapide. Nous présenterons aussi la "registry" de Docker, qui permet le stockage et le transfert de ces images.
+
+Enfin, nous montrerons concrètement comment effectuer un retour en arrière et comment préserver les données lors de ces mises à jour de versions.
+
+Toutes les techniques présentées peuvent être aisément transposées à un autre type de conteneurs. Les outils présentés sont open source et utilisables gratuitement par tous.

@@ -1,0 +1,10 @@
+* Pre-requisites
+https://openclassrooms.com/courses/reprenez-le-controle-a-l-aide-de-linux/installez-linux-dans-une-machine-virtuelle
+Ubuntu 14.04
+* Basic use cases
+* Dévelop with container
+** Mount local code inside container
+** Change uid/gid
+** Run container
+** Run and tests your app
+** Add to travis-ci
